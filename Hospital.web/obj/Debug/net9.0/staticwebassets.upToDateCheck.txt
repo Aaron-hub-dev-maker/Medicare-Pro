@@ -1,0 +1,201 @@
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\css\site.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\favicon.ico
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\js\site.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospital.web\wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\031794aa-599d-432b-830b-1714ca2a07dc-4-dslanguages.png
+wwwroot\images\043706aa-8e6b-4bab-bd07-d95311ae42a6-download.png
+wwwroot\images\0450a726-6b9f-4b20-b000-f5757b8d932b-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\06dd1ca6-0ba5-4159-bbc3-7ac517c214c7-download (2).jpeg
+wwwroot\images\08aad9dd-f7c7-4a2b-ba4d-643eb7133d17-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\0b3e939b-7b4d-4b64-8506-f274ba3347db-download (1).jpeg
+wwwroot\images\15252726-dd50-44ce-8871-2b9a92686424-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\189db533-8476-483d-a713-d3349b0b4259-Line_plot_2.png
+wwwroot\images\1cbb10b2-a6e9-4c27-8bf6-12f06d14fa55-Line_plot_2.png
+wwwroot\images\2050a015-ecad-4f09-a9c1-301ad3ccf0eb-Face.png
+wwwroot\images\25f1748d-4afc-4a4c-a169-a59e2fb41bd3-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\318157ae-3f22-4506-bc6f-dad1c5ea4787-Screenshot 2023-10-15 231743.png
+wwwroot\images\35c55358-bf00-428c-8192-b2303ea02164-Line_plot_2.png
+wwwroot\images\3b193419-cb75-4fde-9f3f-0d92091fa354-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\45aae9ec-040c-4883-8c1e-f66be1c41e4e-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\4b2700e5-16fb-45d5-9b97-fcd8399f2412-download (2).jpeg
+wwwroot\images\5b133a83-9c0b-4cff-9904-8775bc86a318-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\5c4e00d6-077e-4cef-8a2f-fa48447ed2a6-download.png
+wwwroot\images\60ac6743-19f7-4109-bdb3-c9d99144833a-2-title.png
+wwwroot\images\62284446-10dd-417f-9caa-67fde2fda785-5-dslibraries.png
+wwwroot\images\65b1d1c3-8d75-409a-921c-232c75d9e540-Line_plot_2.png
+wwwroot\images\71f00bb4-7e21-4826-a9fb-a9d5a67edf19-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\75e2c1de-3f88-41a3-8c62-11625857c9e0-Screenshot 2023-11-21 194043.png
+wwwroot\images\79763ff4-dc4c-4e71-a5da-136eb127ebc9-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\7d4b8e20-6e65-4f12-b5be-cfa2a6743c72-Face.png
+wwwroot\images\80d285c2-dd56-4847-9e3a-1c0186d5e057-download (2).jpeg
+wwwroot\images\81ee4960-6a2d-4a1f-9c18-8496e9c1c59d-7-introarithmetic-2.png
+wwwroot\images\8703fd49-f0ef-44d6-8e4c-3647b0b4de31-Screenshot 2025-04-09 101538.png
+wwwroot\images\893c8fc8-1611-4507-9dbc-97a350e35622-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\91559760-b204-4a8a-bc4e-13980ba0b6b6-Line_plot_2.png
+wwwroot\images\94aff20f-a62a-4644-8b14-0835e05a70a7-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\95c6690d-578f-4a7f-87e5-77133d71c89d-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\9b10a00c-fa7a-4480-af2e-f3ca0d1e393c-download (2).jpeg
+wwwroot\images\9bcf4d30-8ee0-40f8-9557-88848623af76-Line_plot_2.png
+wwwroot\images\9fc56c7c-9920-4d2f-94af-17ee8fa79594-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\a0af7e3e-8b75-4b2d-9c97-9e1bf6fe7527-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\a19efcd0-10b9-4d6f-aa68-64097fbab4bf-download (2).jpeg
+wwwroot\images\a2cc6574-38da-4446-ab65-4826e3b1188b-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\abb670b9-4d5f-4d35-8986-ca2c9530d013-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\af013227-8e3c-4800-892f-fbf3b9fdfbda-download (2).jpeg
+wwwroot\images\af79c4e5-4152-45d5-a633-568777cb727c-download.png
+wwwroot\images\b04141b8-a7c5-436b-8a6d-28888f1138cd-7-introarithmetic-2.png
+wwwroot\images\b190560f-bbc3-4f65-aa8b-93c38265c574-download.png
+wwwroot\images\b23b6ee3-ed74-47eb-8ebb-c7c427e32045-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\b8024317-1c1c-4bef-b081-0fbb63b79b44-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\Best-Hospital-Management-Software-in-Pakistan.png
+wwwroot\images\c5243896-ac3f-4e40-a4d1-46be62ccfb36-download (1).jpeg
+wwwroot\images\c8654273-7511-4eb8-8fe9-b2870e4888a3-Line_plot_2.png
+wwwroot\images\c974ad1e-fc92-4300-80b2-8f2232cbdaed-Screenshot 2023-10-11 230649.png
+wwwroot\images\caf20d05-5d7c-4646-977a-5745bf3c03c2-3-intro.png
+wwwroot\images\cb6c2815-6f5d-49cb-97e4-933a960c8114-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\d1ddb366-e9df-463d-a71b-5a4955f17d54-download.png
+wwwroot\images\d596e14d-3704-4651-92a2-99d3afcf8c8c-Line_plot_2.png
+wwwroot\images\d64fabd0-2744-44cd-a68e-0a89d22101c8-download (1).png
+wwwroot\images\d884c327-5a83-4ba4-bc95-e0decd27f45d-download (2).jpeg
+wwwroot\images\d8a9da15-537c-4b51-97a4-1e76f2146f45-3-intro.png
+wwwroot\images\d972d42e-c33e-4800-953c-add47c6ae2c4-download (1).png
+wwwroot\images\d98eaeb6-ce94-43a8-b970-9ee0fbef2695-download (1).jpeg
+wwwroot\images\dae91683-8538-441d-8cee-1e93f97e1323-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\db7dbb3d-722d-45b1-a555-e15d216e0838-9-hourstominutes.png
+wwwroot\images\default-avatar.png
+wwwroot\images\df671d92-6626-47ac-b53b-673ca378b2bf-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\dfe5864e-3b4a-4814-a65c-6746bf96d0bd-download (1).jpeg
+wwwroot\images\e16d8d58-427e-4041-b7ae-a061c3e7dc4c-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\e26da7fe-7f04-453d-ac25-c5d8981414d8-2-title.png
+wwwroot\images\e3ada929-686e-475c-b96c-6bc40e901ee5-download (2).jpeg
+wwwroot\images\e6fb978f-ad2d-486d-bf48-25dfa40cf16b-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\e709b141-74f0-4a58-81df-c44b7a98d7e3-download.jpeg
+wwwroot\images\f2af4f81-ffaa-4fc3-885d-a32f4376b4af-download (1).jpeg
+wwwroot\images\f39d55f5-4a7e-43a1-9f7d-9b5c7b262628-Screenshot 2025-04-09 101538.png
+wwwroot\images\f5d1d03f-1a88-417b-94ca-470d43f52460-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\fcf78c1b-6e2a-4909-8b86-747c17348bf5-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\ff638614-b0bb-43d8-ad22-b7601913ab3d-360_F_134293169_ymHT6Lufl0i94WzyE0NNMyDkiMCH9HWx.jpg
+wwwroot\images\users\445fdb32-c869-47ec-8264-da99d12a2db9.png
+wwwroot\images\users\6ae2d2d0-3271-4d9e-9036-cd82ecfe6572.png
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\c1206363-841d-4a18-a600-931e28781442.png

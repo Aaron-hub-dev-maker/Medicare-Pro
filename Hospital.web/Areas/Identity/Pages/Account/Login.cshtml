@@ -1,0 +1,46 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="container d-flex align-items-center justify-content-center min-vh-100 bg-light">
+    <div class="card shadow-lg p-4" style="max-width: 420px; width: 100%; border-radius: 1.25rem;">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold" style="color: #1976d2;">Welcome Back</h2>
+            <p class="text-muted mb-0">Sign in to your hospital account</p>
+        </div>
+        <form id="account" method="post" autocomplete="off">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+            <div class="form-floating mb-3 position-relative">
+                <input asp-for="Input.Email" class="form-control ps-5" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email" class="form-label">Email</label>
+                <span class="position-absolute top-50 start-0 translate-middle-y ms-3 text-primary"><i class="bi bi-envelope"></i></span>
+                <span asp-validation-for="Input.Email" class="text-danger small"></span>
+            </div>
+            <div class="form-floating mb-3 position-relative">
+                <input asp-for="Input.Password" class="form-control ps-5" autocomplete="current-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password" class="form-label">Password</label>
+                <span class="position-absolute top-50 start-0 translate-middle-y ms-3 text-primary"><i class="bi bi-lock"></i></span>
+                <span asp-validation-for="Input.Password" class="text-danger small"></span>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" asp-for="Input.RememberMe" />
+                <label asp-for="Input.RememberMe" class="form-check-label ms-1">
+                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                </label>
+            </div>
+            <button id="login-submit" type="submit" class="btn btn-primary btn-lg w-100 mb-2" style="border-radius: 2rem;">Log in</button>
+            <div class="d-flex justify-content-between mb-2">
+                <a id="forgot-password" asp-page="./ForgotPassword" class="small">Forgot password?</a>
+                <a asp-area="Identity" asp-page="/Account/RegisterChoice" class="small">Register</a>
+            </div>
+            <a id="resend-confirmation" asp-page="./ResendEmailConfirmation" class="small d-block text-center">Resend email confirmation</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

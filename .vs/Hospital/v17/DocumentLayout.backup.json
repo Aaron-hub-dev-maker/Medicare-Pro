@@ -1,0 +1,606 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D81232BD-7423-4500-A277-57640E24B5F2}|Hospital.Models\\Hospital.Models.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.models\\patientreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81232BD-7423-4500-A277-57640E24B5F2}|Hospital.Models\\Hospital.Models.csproj|solutionrelative:hospital.models\\patientreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.services\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|solutionrelative:hospital.services\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Migrations\\20250715120239_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospitals.Repositories\\Migrations\\20250715120239_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospitals.utilities\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|solutionrelative:hospitals.utilities\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\patient\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\patient\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\admin\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\admin\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Migrations\\20250715104352_SyncModelWithDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospitals.Repositories\\Migrations\\20250715104352_SyncModelWithDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\admin\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\admin\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.services\\iapplicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|solutionrelative:hospital.services\\iapplicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\identity\\pages\\account\\doctorregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\identity\\pages\\account\\doctorregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.viewmodels\\applicationuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|solutionrelative:hospital.viewmodels\\applicationuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\identity\\pages\\account\\doctorregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\identity\\pages\\account\\doctorregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81232BD-7423-4500-A277-57640E24B5F2}|Hospital.Models\\Hospital.Models.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.models\\hospitalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81232BD-7423-4500-A277-57640E24B5F2}|Hospital.Models\\Hospital.Models.csproj|solutionrelative:hospital.models\\hospitalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospitals.utilities\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|solutionrelative:hospitals.utilities\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.viewmodels\\hospitalinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|solutionrelative:hospital.viewmodels\\hospitalinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\admin\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\admin\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|solutionrelative:hospital.services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5488C8A-D161-4B65-A82F-24EAEBDA346D}|Hospital.Services\\Hospital.Services.csproj|solutionrelative:hospital.services\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81232BD-7423-4500-A277-57640E24B5F2}|Hospital.Models\\Hospital.Models.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81232BD-7423-4500-A277-57640E24B5F2}|Hospital.Models\\Hospital.Models.csproj|solutionrelative:hospital.models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\admin\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\admin\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospitals.utilities\\websiteroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|solutionrelative:hospitals.utilities\\websiteroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospitals.utilities\\imageoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62162FA3-6F61-437B-B24A-D4AEF6B9AA4A}|Hospitals.Utilities\\Hospitals.Utilities.csproj|solutionrelative:hospitals.utilities\\imageoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BD7FD3-49F1-49D1-9BA0-E43C045633BA}|Hospitals.Repositories\\Hospitals.Repositories.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospitals.repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BD7FD3-49F1-49D1-9BA0-E43C045633BA}|Hospitals.Repositories\\Hospitals.Repositories.csproj|solutionrelative:hospitals.repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BD7FD3-49F1-49D1-9BA0-E43C045633BA}|Hospitals.Repositories\\Hospitals.Repositories.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospitals.repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BD7FD3-49F1-49D1-9BA0-E43C045633BA}|Hospitals.Repositories\\Hospitals.Repositories.csproj|solutionrelative:hospitals.repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.viewmodels\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|solutionrelative:hospital.viewmodels\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.viewmodels\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC01B704-79E8-4484-A3BF-82DFD6277AD8}|Hospital.ViewModels\\Hospital.ViewModels.csproj|solutionrelative:hospital.viewmodels\\roomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\admin\\views\\contacts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\admin\\views\\contacts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\admin\\views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\admin\\views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|c:\\users\\lenovo ssd\\source\\repos\\hospital\\hospital.web\\areas\\admin\\views\\hospitals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9F5971B-9A42-4498-AA46-D31850020620}|Hospital.web\\Hospital.web.csproj|solutionrelative:hospital.web\\areas\\admin\\views\\hospitals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientReport.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Models\\PatientReport.cs",
+              "RelativeDocumentMoniker": "Hospital.Models\\PatientReport.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Models\\PatientReport.cs",
+              "RelativeToolTip": "Hospital.Models\\PatientReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T07:04:53.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:30:19.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Patient\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Patient\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Patient\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Patient\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T11:06:46.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Hospital.web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T11:07:18.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Hospitals.Utilities\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\DbInitializer.cs",
+              "RelativeToolTip": "Hospitals.Utilities\\DbInitializer.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwDsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:52:53.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250715120239_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Migrations\\20250715120239_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Hospitals.Repositories\\Migrations\\20250715120239_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Migrations\\20250715120239_InitialCreate.cs",
+              "RelativeToolTip": "Hospitals.Repositories\\Migrations\\20250715120239_InitialCreate.cs",
+              "ViewState": "AgIAABECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:02:40.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\ApplicationUserService.cs",
+              "RelativeDocumentMoniker": "Hospital.Services\\ApplicationUserService.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\ApplicationUserService.cs",
+              "RelativeToolTip": "Hospital.Services\\ApplicationUserService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:07:42.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Program.cs",
+              "RelativeDocumentMoniker": "Hospital.web\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Program.cs",
+              "RelativeToolTip": "Hospital.web\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAASwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:56:47.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IApplicationUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\IApplicationUserService.cs",
+              "RelativeDocumentMoniker": "Hospital.Services\\IApplicationUserService.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\IApplicationUserService.cs",
+              "RelativeToolTip": "Hospital.Services\\IApplicationUserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:06:48.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250715104352_SyncModelWithDb.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Migrations\\20250715104352_SyncModelWithDb.cs",
+              "RelativeDocumentMoniker": "Hospitals.Repositories\\Migrations\\20250715104352_SyncModelWithDb.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Migrations\\20250715104352_SyncModelWithDb.cs",
+              "RelativeToolTip": "Hospitals.Repositories\\Migrations\\20250715104352_SyncModelWithDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:43:53.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Hospital.web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T11:05:34.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "Hospital.web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:13:51.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DoctorRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T11:39:48.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Hospital.web\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T11:05:31.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\ApplicationUserViewModel.cs",
+              "RelativeDocumentMoniker": "Hospital.ViewModels\\ApplicationUserViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\ApplicationUserViewModel.cs",
+              "RelativeToolTip": "Hospital.ViewModels\\ApplicationUserViewModel.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwEsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:58:47.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DoctorRegister.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml.cs",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml.cs",
+              "RelativeToolTip": "Hospital.web\\Areas\\Identity\\Pages\\Account\\DoctorRegister.cshtml.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAowJIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:24:20.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HospitalInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Models\\HospitalInfo.cs",
+              "RelativeDocumentMoniker": "Hospital.Models\\HospitalInfo.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Models\\HospitalInfo.cs",
+              "RelativeToolTip": "Hospital.Models\\HospitalInfo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:35:22.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\PagedResult.cs",
+              "RelativeDocumentMoniker": "Hospitals.Utilities\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\PagedResult.cs",
+              "RelativeToolTip": "Hospitals.Utilities\\PagedResult.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:53:14.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HospitalInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\HospitalInfoViewModel.cs",
+              "RelativeDocumentMoniker": "Hospital.ViewModels\\HospitalInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\HospitalInfoViewModel.cs",
+              "RelativeToolTip": "Hospital.ViewModels\\HospitalInfoViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T10:52:02.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Admin\\Views\\Rooms\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T10:53:57.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T09:26:51.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Hospital.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:26:52.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "Hospital.Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\DoctorService.cs",
+              "RelativeToolTip": "Hospital.Services\\DoctorService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:25:05.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "Hospital.Services\\IDoctorService.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Services\\IDoctorService.cs",
+              "RelativeToolTip": "Hospital.Services\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:47:14.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Models\\Department.cs",
+              "RelativeDocumentMoniker": "Hospital.Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.Models\\Department.cs",
+              "RelativeToolTip": "Hospital.Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:16:19.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Admin\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "Hospital.web\\Areas\\Admin\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T09:05:45.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WebSiteRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\WebSiteRoles.cs",
+              "RelativeDocumentMoniker": "Hospitals.Utilities\\WebSiteRoles.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\WebSiteRoles.cs",
+              "RelativeToolTip": "Hospitals.Utilities\\WebSiteRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:45:42.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ImageOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\ImageOperations.cs",
+              "RelativeDocumentMoniker": "Hospitals.Utilities\\ImageOperations.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Utilities\\ImageOperations.cs",
+              "RelativeToolTip": "Hospitals.Utilities\\ImageOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:44:46.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T10:30:02.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Implementation\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Hospitals.Repositories\\Implementation\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Implementation\\GenericRepository.cs",
+              "RelativeToolTip": "Hospitals.Repositories\\Implementation\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:01:17.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Hospitals.Repositories\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospitals.Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Hospitals.Repositories\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:06:26.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ContactViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\ContactViewModel.cs",
+              "RelativeDocumentMoniker": "Hospital.ViewModels\\ContactViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\ContactViewModel.cs",
+              "RelativeToolTip": "Hospital.ViewModels\\ContactViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:51:46.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RoomViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\RoomViewModel.cs",
+              "RelativeDocumentMoniker": "Hospital.ViewModels\\RoomViewModel.cs",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.ViewModels\\RoomViewModel.cs",
+              "RelativeToolTip": "Hospital.ViewModels\\RoomViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:07:13.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Contacts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Admin\\Views\\Contacts\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Contacts\\Edit.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Admin\\Views\\Contacts\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:26:39.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Contacts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Admin\\Views\\Contacts\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Contacts\\Create.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Admin\\Views\\Contacts\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:30:10.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Hospitals\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Hospital.web\\Areas\\Admin\\Views\\Hospitals\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo SSD\\source\\repos\\Hospital\\Hospital.web\\Areas\\Admin\\Views\\Hospitals\\Edit.cshtml",
+              "RelativeToolTip": "Hospital.web\\Areas\\Admin\\Views\\Hospitals\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T05:32:20.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

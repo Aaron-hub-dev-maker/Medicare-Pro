@@ -1,0 +1,12 @@
+@model IEnumerable<Hospital.Models.Appointment>
+@foreach (var appt in Model)
+{
+    <tr class="appointment-row">
+        <td>@appt.Number</td>
+        <td>@appt.Doctor?.Name</td>
+        <td>@appt.CreatedDate.ToString("yyyy-MM-dd HH:mm")</td>
+        <td>@appt.Type</td>
+        <td>@appt.Description</td>
+        <td>Confirmed</td>
+    </tr>
+} 

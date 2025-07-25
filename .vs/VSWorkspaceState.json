@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Hospital.web",
+    "\\Hospital.web\\Areas",
+    "\\Hospital.web\\Areas\\Admin",
+    "\\Hospital.web\\Areas\\Admin\\Views",
+    "\\Hospital.web\\Areas\\Admin\\Views\\Users",
+    "\\Hospital.web\\Areas\\Patient",
+    "\\Hospital.web\\Areas\\Patient\\Views",
+    "\\Hospital.web\\Areas\\Patient\\Views\\Home",
+    "\\Hospitals.Utilities"
+  ],
+  "SelectedNode": "\\Hospital.web\\Areas\\Patient\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

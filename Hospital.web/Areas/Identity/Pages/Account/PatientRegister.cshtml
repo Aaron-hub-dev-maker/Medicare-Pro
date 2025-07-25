@@ -1,0 +1,278 @@
+@page
+@using Hospital.Models
+@model PatientRegisterModel
+@{
+    ViewData["Title"] = "Patient Registration - MediCare Pro";
+}
+
+<div class="container-fluid registration-container">
+    <div class="row justify-content-center align-items-center min-vh-100">
+        <div class="col-lg-10 col-xl-8">
+            <div class="card shadow-lg border-0 registration-card">
+                <div class="card-body p-5">
+                    <!-- Header -->
+                    <div class="text-center mb-5">
+                        <div class="mb-4">
+                            <i class="fas fa-user-injured fa-3x text-gradient"></i>
+                        </div>
+                        <h1 class="text-gradient h2 mb-2">Patient Registration</h1>
+                        <p class="text-muted">Create your patient account and access quality healthcare services</p>
+                    </div>
+
+                    <!-- Registration Form -->
+                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+                        <input type="hidden" name="Input.PictureUrl" value="/images/users/default-patient.png" />
+                        <div class="row">
+                            <div class="col-12">
+                                <div asp-validation-summary="All" class="alert alert-danger" role="alert" style="display:block;font-size:1.1em;"></div>
+                            </div>
+                        </div>
+
+                        <div class="row g-4">
+                            <!-- Personal Information -->
+                            <div class="col-md-6">
+                                <h5 class="mb-4">
+                                    <i class="fas fa-user me-2"></i>Personal Information
+                                </h5>
+                                
+                                <div class="form-floating mb-4">
+                                    <input asp-for="Input.Name" class="form-control" aria-required="true" placeholder="Full Name" required />
+                                    <label asp-for="Input.Name">
+                                        <i class="fas fa-user me-2"></i>Full Name
+                                    </label>
+                                    <span asp-validation-for="Input.Name" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <select asp-for="Input.Gender" asp-items="@Html.GetEnumSelectList<Gender>()" class="form-control" aria-required="true" required>
+                                        <option value="-1">Select Gender</option>
+                                    </select>
+                                    <label asp-for="Input.Gender">
+                                        <i class="fas fa-venus-mars me-2"></i>Gender
+                                    </label>
+                                    <span asp-validation-for="Input.Gender" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <input asp-for="Input.DOB" type="date" class="form-control" placeholder="Date of Birth" />
+                                    <label asp-for="Input.DOB">
+                                        <i class="fas fa-birthday-cake me-2"></i>Date of Birth
+                                    </label>
+                                    <span asp-validation-for="Input.DOB" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <input asp-for="Input.Nationality" class="form-control" aria-required="true" placeholder="Nationality" required />
+                                    <label asp-for="Input.Nationality">
+                                        <i class="fas fa-flag me-2"></i>Nationality
+                                    </label>
+                                    <span asp-validation-for="Input.Nationality" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <!-- Contact Information -->
+                            <div class="col-md-6">
+                                <h5 class="mb-4">
+                                    <i class="fas fa-address-book me-2"></i>Contact Information
+                                </h5>
+
+                                <div class="form-floating mb-4">
+                                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" required />
+                                    <label asp-for="Input.Email">
+                                        <i class="fas fa-envelope me-2"></i>Email Address
+                                    </label>
+                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <input asp-for="Input.City" class="form-control" placeholder="City" />
+                                    <label asp-for="Input.City">
+                                        <i class="fas fa-city me-2"></i>City
+                                    </label>
+                                    <span asp-validation-for="Input.City" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-floating mb-4">
+                                    <textarea asp-for="Input.Address" class="form-control" aria-required="true" placeholder="Address" style="height: 100px" required></textarea>
+                                    <label asp-for="Input.Address">
+                                        <i class="fas fa-map-marker-alt me-2"></i>Address
+                                    </label>
+                                    <span asp-validation-for="Input.Address" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <!-- Medical Information -->
+                            <div class="col-12">
+                                <hr class="my-5">
+                                <h5 class="mb-4">
+                                    <i class="fas fa-heartbeat me-2"></i>Medical Information
+                                </h5>
+                                
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-4">
+                                            <input asp-for="Input.BloodGroup" class="form-control" placeholder="Blood Group" />
+                                            <label asp-for="Input.BloodGroup">
+                                                <i class="fas fa-tint me-2"></i>Blood Group
+                                            </label>
+                                            <span asp-validation-for="Input.BloodGroup" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-4">
+                                            <textarea asp-for="Input.MedicalHistory" class="form-control" placeholder="Medical History" style="height: 100px"></textarea>
+                                            <label asp-for="Input.MedicalHistory">
+                                                <i class="fas fa-notes-medical me-2"></i>Medical History
+                                            </label>
+                                            <span asp-validation-for="Input.MedicalHistory" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Security Information -->
+                            <div class="col-12">
+                                <hr class="my-5">
+                                <h5 class="mb-4">
+                                    <i class="fas fa-shield-alt me-2"></i>Security Information
+                                </h5>
+                                
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-4">
+                                            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" required />
+                                            <label asp-for="Input.Password">
+                                                <i class="fas fa-lock me-2"></i>Password
+                                            </label>
+                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                            <div class="password-strength mt-3">
+                                                <div class="progress" style="height: 4px;">
+                                                    <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                                                </div>
+                                                <small class="text-muted">Password strength</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-4">
+                                            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="confirm password" required />
+                                            <label asp-for="Input.ConfirmPassword">
+                                                <i class="fas fa-lock me-2"></i>Confirm Password
+                                            </label>
+                                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Patient Confirmation -->
+                            <div class="col-12">
+                                <div class="form-check mb-4">
+                                    <input type="checkbox" asp-for="Input.IsPatient" class="form-check-input" aria-required="true" required />
+                                    <label asp-for="Input.IsPatient" class="form-check-label">
+                                        <i class="fas fa-user-injured me-2"></i>I confirm that I am registering as a patient
+                                    </label>
+                                    <span asp-validation-for="Input.IsPatient" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <!-- Terms and Conditions -->
+                            <div class="col-12">
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" id="termsCheck" required>
+                                    <label class="form-check-label" for="termsCheck">
+                                        I agree to the <a href="#" class="text-decoration-none">Terms of Service</a>, 
+                                        <a href="#" class="text-decoration-none">Privacy Policy</a>, and 
+                                        <a href="#" class="text-decoration-none">Patient Rights and Responsibilities</a>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="col-12">
+                                <div class="d-grid">
+                                    <button id="registerSubmit" type="submit" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-user-injured me-2"></i>Register as Patient
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Login Link -->
+                            <div class="col-12 text-center">
+                                <p class="mb-0">
+                                    Already have an account? 
+                                    <a asp-page="./Login" class="text-decoration-none">
+                                        <i class="fas fa-sign-in-alt me-1"></i>Sign in here
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- External Registration -->
+                    @if ((Model.ExternalLogins?.Count ?? 0) > 0)
+                    {
+                        <hr class="my-5">
+                        <div class="text-center">
+                            <h6 class="text-muted mb-3">Or register with</h6>
+                            <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                                <div class="d-grid gap-2">
+                                    @foreach (var provider in Model.ExternalLogins!)
+                                    {
+                                        <button type="submit" 
+                                                class="btn btn-outline-secondary" 
+                                                name="provider" 
+                                                value="@provider.Name"
+                                                title="Register using your @provider.DisplayName account">
+                                            <i class="fab fa-@(provider.DisplayName.ToLower()) me-2"></i>
+                                            @provider.DisplayName
+                                        </button>
+                                    }
+                                </div>
+                            </form>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Password strength indicator
+        document.getElementById('Input_Password').addEventListener('input', function() {
+            const password = this.value;
+            const strength = calculatePasswordStrength(password);
+            const progressBar = document.querySelector('.password-strength .progress-bar');
+            const strengthText = document.querySelector('.password-strength small');
+            
+            progressBar.style.width = strength.percentage + '%';
+            progressBar.className = 'progress-bar ' + strength.class;
+            strengthText.textContent = strength.text;
+        });
+
+        function calculatePasswordStrength(password) {
+            let score = 0;
+            let feedback = [];
+
+            if (password.length >= 8) score += 25;
+            if (/[a-z]/.test(password)) score += 25;
+            if (/[A-Z]/.test(password)) score += 25;
+            if (/[0-9]/.test(password)) score += 25;
+
+            if (score <= 25) {
+                return { percentage: score, class: 'bg-danger', text: 'Weak password' };
+            } else if (score <= 50) {
+                return { percentage: score, class: 'bg-warning', text: 'Fair password' };
+            } else if (score <= 75) {
+                return { percentage: score, class: 'bg-info', text: 'Good password' };
+            } else {
+                return { percentage: score, class: 'bg-success', text: 'Strong password' };
+            }
+        }
+    </script>
+} 

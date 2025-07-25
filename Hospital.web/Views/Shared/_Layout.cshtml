@@ -1,0 +1,163 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Hospital.Models 
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MediCare Pro</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Hospital.web.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #e3f0ff 0%, #f8fbff 100%);
+            min-height: 100vh;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            color: #1976d2 !important;
+        }
+        .navbar {
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+        }
+        .nav-link {
+            font-weight: 500;
+            color: #1976d2 !important;
+            transition: color 0.2s;
+        }
+        .nav-link.active, .nav-link:hover {
+            color: #1565c0 !important;
+        }
+        .profile-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #1976d2;
+        }
+        footer {
+            background: #f5f7fa;
+            color: #6c757d;
+            font-size: 0.95rem;
+            padding: 1.2rem 0 0.5rem 0;
+            border-top: 1px solid #e3e3e3;
+        }
+    </style>
+</head>
+<body>
+    @await Html.PartialAsync("_ToastNotifications")
+    @await Html.PartialAsync("_LoadingOverlay")
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm" style="background: linear-gradient(90deg, #e3f0ff 0%, #f8fbff 100%);">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" asp-area="Patient" asp-controller="Home" asp-action="Index">
+                    <i class="fa-solid fa-hospital me-2 text-primary"></i> MediCare Pro
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")" asp-area="Patient" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house me-1"></i> Home</a>
+                        </li>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            var currentUser = await UserManager.GetUserAsync(User);
+                            var isDoctor = currentUser?.IsDoctor ?? false;
+                            var isAdmin = User.IsInRole("Admin");
+                            if (!isDoctor && !isAdmin)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-success text-white px-3 ms-2" style="border-radius: 2rem;" href="/Patient/Appointments/BookAppointment">
+                                        <i class="fa-solid fa-calendar-plus me-1"></i> Book Appointment
+                                    </a>
+                                </li>
+                            }
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Privacy" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Privacy"><i class="fa-solid fa-user-shield me-1"></i> Privacy</a>
+                        </li>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            var currentUser = await UserManager.GetUserAsync(User);
+                            var isDoctor = currentUser?.IsDoctor ?? false;
+                            var isAdmin = User.IsInRole("Admin");
+                            <li><hr class="dropdown-divider my-1" /></li>
+                            <li class="nav-item small text-muted ps-2" style="font-size:0.95em;">Admin/Doctor</li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="admin" asp-controller="Hospitals" asp-action="Index"><i class="fa-solid fa-building me-1"></i> Hospital</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="admin" asp-controller="Rooms" asp-action="Index"><i class="fa-solid fa-bed me-1"></i> Rooms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="admin" asp-controller="Contacts" asp-action="Index"><i class="fa-solid fa-address-book me-1"></i> Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="admin" asp-controller="Users" asp-action="AllDoctors"><i class="fa-solid fa-user-doctor me-1"></i> DoctorsList</a>
+                            </li>
+                            @if (isDoctor)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="admin" asp-controller="Users" asp-action="Index"><i class="fa-solid fa-users me-1"></i> Users</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="admin" asp-controller="Appointments" asp-action="AllAppointments"><i class="fa-solid fa-calendar-check me-1"></i> AllAppointments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Doctor" asp-controller="Doctors" asp-action="AddTiming"><i class="fa-solid fa-clock me-1"></i> DoctorTiming</a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        @if (!SignInManager.IsSignedIn(User))
+                        {
+                            // Remove the Doctor Registration nav-item here
+                        }
+                        <li class="nav-item">
+                            <partial name="_LoginPartial" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container py-4">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer mt-auto border-top text-muted">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div>
+                &copy; @DateTime.Now.Year - MediCare Pro &nbsp;|&nbsp;
+                <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-decoration-none text-primary">Privacy Policy</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope me-1"></i> <a href="mailto:support@medicarepro.com" class="text-decoration-none text-primary">support@medicarepro.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @await Html.PartialAsync("_ConfirmModal")
+</body>
+</html>

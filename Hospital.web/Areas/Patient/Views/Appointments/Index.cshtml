@@ -1,0 +1,59 @@
+@model IEnumerable<Hospital.Models.Appointment>
+@{
+    ViewData["Title"] = "My Appointments";
+}
+
+<style>
+.appointment-row {
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 1;
+}
+.appointment-row.hide {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.98);
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+</style>
+
+<h2>My Appointments</h2>
+<table class="table table-striped" id="appointmentsTable">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Doctor</th>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="appointmentsBody">
+        @await Html.PartialAsync("_AppointmentsTableBody", Model)
+    </tbody>
+</table>
+<script>
+// Flicker-free AJAX update for appointments table with guard
+let lastAppointmentsHtml = null;
+function updateAppointmentsTable(newRowsHtml) {
+    if (lastAppointmentsHtml === newRowsHtml) return; // Prevent repeated animation if content is the same
+    lastAppointmentsHtml = newRowsHtml;
+    const tbody = document.getElementById('appointmentsBody');
+    const oldRows = Array.from(tbody.children);
+    // Fade out old rows
+    oldRows.forEach(row => row.classList.add('hide'));
+    // After fade-out, replace rows
+    setTimeout(() => {
+        tbody.innerHTML = newRowsHtml;
+        const newRows = Array.from(tbody.children);
+        // Start with new rows hidden
+        newRows.forEach(row => row.classList.add('hide'));
+        // Fade in new rows
+        setTimeout(() => {
+            newRows.forEach(row => row.classList.remove('hide'));
+        }, 10); // Short delay to trigger transition
+    }, 300); // Match CSS transition duration
+}
+</script> 

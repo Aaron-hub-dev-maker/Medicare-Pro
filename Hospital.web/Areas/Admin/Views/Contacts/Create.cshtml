@@ -1,0 +1,51 @@
+﻿@model Hospital.ViewModels.ContactViewModel
+
+@{
+    ViewData["Title"] = "Create Contact";
+}
+
+<div class="container d-flex align-items-center justify-content-center min-vh-100 bg-light">
+    <div class="card shadow-lg p-4" style="max-width: 480px; width: 100%; border-radius: 1.25rem;">
+        <div class="text-center mb-4">
+            <i class="fas fa-address-book fa-2x text-gradient mb-2"></i>
+            <h2 class="fw-bold mb-1" style="color: #1976d2;">Create Contact</h2>
+            <p class="text-muted mb-0">Add a new contact for your hospital</p>
+        </div>
+        <form asp-action="Create" autocomplete="off">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-3" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Email" class="form-control" placeholder="Email" />
+                <label asp-for="Email">Email</label>
+                <span asp-validation-for="Email" class="text-danger small"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Phone" class="form-control" placeholder="Phone" />
+                <label asp-for="Phone">Phone</label>
+                <span asp-validation-for="Phone" class="text-danger small"></span>
+            </div>
+            <div class="form-floating mb-4">
+                <select asp-for="HospitalInfoId" class="form-select" asp-items="@(new SelectList(Model.Hospitals, "Id", "Name"))">
+                    <option value="">-- Select Hospital --</option>
+                </select>
+                <label asp-for="HospitalInfoId">Hospital</label>
+                <span asp-validation-for="HospitalInfoId" class="text-danger small"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg w-100" style="border-radius: 2rem;">
+                <i class="fas fa-check-circle me-2"></i>Create Contact
+            </button>
+        </form>
+        <div class="text-center mt-3">
+            <a asp-action="Index" class="small text-primary text-decoration-none"><i class="fas fa-arrow-left me-1"></i>Back to List</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .text-gradient {
+        background: linear-gradient(90deg, #1976d2 0%, #67b26f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+</style>

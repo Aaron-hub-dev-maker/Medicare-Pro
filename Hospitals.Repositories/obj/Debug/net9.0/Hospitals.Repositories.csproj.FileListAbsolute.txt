@@ -1,0 +1,17 @@
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\bin\Debug\net9.0\Hospitals.Repositories.deps.json
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\bin\Debug\net9.0\Hospitals.Repositories.runtimeconfig.json
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\bin\Debug\net9.0\Hospitals.Repositories.dll
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\bin\Debug\net9.0\Hospitals.Repositories.pdb
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\bin\Debug\net9.0\Hospital.Models.dll
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\bin\Debug\net9.0\Hospital.Models.pdb
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.csproj.AssemblyReference.cache
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.AssemblyInfoInputs.cache
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.AssemblyInfo.cs
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospital.4C0D52BA.Up2Date
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.dll
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\refint\Hospitals.Repositories.dll
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.pdb
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\Hospitals.Repositories.genruntimeconfig.cache
+C:\Users\Lenovo SSD\source\repos\Hospital\Hospitals.Repositories\obj\Debug\net9.0\ref\Hospitals.Repositories.dll

@@ -1,0 +1,403 @@
+@model Hospitals.Utilities.PagedResult<Hospital.ViewModels.ApplicationUserViewModel>
+@{
+    ViewData["Title"] = "Book Appointment";
+}
+
+<style>
+.doctor-card, .time-slot {
+  transition: opacity 0.3s, transform 0.3s;
+  opacity: 1;
+}
+.doctor-card.hide, .time-slot.hide {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.98);
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+</style>
+<div class="container-fluid">
+    <!-- Page Header -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <h1 class="text-gradient mb-2">
+                                <i class="fas fa-calendar-plus me-3"></i>Book Appointment
+                            </h1>
+                            <p class="text-muted mb-0">Schedule your appointment with our healthcare professionals</p>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="/Patient/Appointments" class="btn btn-outline-primary">
+                                <i class="fas fa-list me-2"></i>My Appointments
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Appointment Wizard -->
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <!-- Progress Steps -->
+                    <div class="wizard-progress mb-4">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="wizard-step active" id="step1">
+                                    <div class="wizard-step-icon">
+                                        <i class="fas fa-user-md"></i>
+                                    </div>
+                                    <div class="wizard-step-label">Select Doctor</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="wizard-step" id="step2">
+                                    <div class="wizard-step-icon">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </div>
+                                    <div class="wizard-step-label">Choose Date & Time</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="wizard-step" id="step3">
+                                    <div class="wizard-step-icon">
+                                        <i class="fas fa-clipboard-list"></i>
+                                    </div>
+                                    <div class="wizard-step-label">Appointment Details</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="wizard-step" id="step4">
+                                    <div class="wizard-step-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="wizard-step-label">Confirmation</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step Content -->
+                    <div class="wizard-content">
+                        <!-- Step 1: Doctor Selection -->
+                        <div class="wizard-panel active" id="panel1">
+                            <h4 class="mb-4">Select a Doctor</h4>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Specialty</label>
+                                    <select class="form-select" id="specialtySelect">
+                                        <option value="">All Specialties</option>
+                                        @foreach (var spec in Model.Data.Select(d => d.Specialist).Distinct().Where(s => !string.IsNullOrEmpty(s))) {
+                                            <option value="@spec">@spec</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Hospital</label>
+                                    <select class="form-select" id="hospitalSelect">
+                                        <option value="">All Hospitals</option>
+                                        @foreach (var hosp in Model.Data.Select(d => d.HospitalName).Distinct().Where(h => !string.IsNullOrEmpty(h))) {
+                                            <option value="@hosp">@hosp</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="doctors-grid" id="doctorsGrid">
+                                @foreach (var doctor in Model.Data) {
+                                    <div class="doctor-card" data-specialty="@doctor.Specialist" data-hospital="@doctor.HospitalName" data-doctor-id="@doctor.Id" data-name="@doctor.Name" data-specialist="@doctor.Specialist" data-hospitalname="@doctor.HospitalName" data-pictureuri="@(string.IsNullOrEmpty(doctor.PictureUri) ? "/images/default-avatar.png" : doctor.PictureUri)">
+                                        <!-- Remove the doctor-avatar/profile picture section -->
+                                        <div class="doctor-info">
+                                            <h6 class="doctor-name">@doctor.Name</h6>
+                                            <p class="doctor-specialty">@doctor.Specialist</p>
+                                            <p class="doctor-hospital">@doctor.HospitalName</p>
+                                            <div class="doctor-rating">
+                                                <i class="fas fa-star text-warning"></i>
+                                                <span>--</span>
+                                                <span class="text-muted">(N/A)</span>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3 text-center">
+                                            <button type="button" class="btn btn-outline-primary select-doctor-btn" data-doctor-id="@doctor.Id">Select Doctor</button>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div id="doctorPreview" class="mt-4" style="display:none;">
+                                <div class="card shadow-sm p-3 mb-2 bg-body rounded" style="max-width: 400px; margin: 0 auto;">
+                                    <div class="d-flex align-items-center">
+                                        <img id="previewDoctorImg" src="/images/default-avatar.png" class="rounded-circle me-3" style="width: 64px; height: 64px; object-fit: cover;">
+                                        <div>
+                                            <h5 id="previewDoctorName" class="mb-1"></h5>
+                                            <div id="previewDoctorSpecialist" class="text-muted"></div>
+                                            <div id="previewDoctorHospital" class="text-muted"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-end mt-4">
+                                <button class="btn btn-primary" onclick="nextStep()" id="nextBtn1" disabled>
+                                    Next <i class="fas fa-arrow-right ms-2"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Date & Time Selection -->
+                        <div class="wizard-panel" id="panel2">
+                            <h4 class="mb-4">Choose Date & Time</h4>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label">Select Date</label>
+                                    <input type="date" id="selectedDateInput" class="form-control" min="{{today}}">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label class="form-label">Select Time</label>
+                                    <input type="time" id="selectedTimeInput" class="form-control" min="09:00" max="17:00" step="1800">
+                                    <small class="text-muted">Working hours: 09:00–17:00</small>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between mt-4">
+                                <button class="btn btn-outline-secondary" onclick="previousStep()">
+                                    <i class="fas fa-arrow-left me-2"></i>Previous
+                                </button>
+                                <button class="btn btn-primary" onclick="nextStep()" id="nextBtn2" disabled>
+                                    Next <i class="fas fa-arrow-right ms-2"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Appointment Details -->
+                        <div class="wizard-panel" id="panel3">
+                            <h4 class="mb-4">Appointment Details</h4>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Appointment Type</label>
+                                    <select class="form-select" id="appointmentType">
+                                        <option value="Consultation">Consultation</option>
+                                        <option value="Follow-up">Follow-up</option>
+                                        <option value="Emergency">Emergency</option>
+                                        <option value="Routine Check">Routine Check</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Duration</label>
+                                    <select class="form-select" id="appointmentDuration">
+                                        <option value="30">30 minutes</option>
+                                        <option value="60" selected>1 hour</option>
+                                        <option value="90">1.5 hours</option>
+                                        <option value="120">2 hours</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label">Reason for Visit</label>
+                                    <textarea class="form-control" id="appointmentReason" rows="4" 
+                                              placeholder="Please describe your symptoms or reason for the appointment..."></textarea>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label">Additional Notes</label>
+                                    <textarea class="form-control" id="additionalNotes" rows="3" 
+                                              placeholder="Any additional information you'd like to share..."></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between mt-4">
+                                <button class="btn btn-outline-secondary" onclick="previousStep()">
+                                    <i class="fas fa-arrow-left me-2"></i>Previous
+                                </button>
+                                <button class="btn btn-primary" onclick="nextStep()" id="nextBtn3">
+                                    Next <i class="fas fa-arrow-right ms-2"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Confirmation -->
+                        <div class="wizard-panel" id="panel4">
+                            <h4 class="mb-4">Confirm Appointment</h4>
+                            <!-- Removed appointment details and your information sections -->
+                            <div class="alert alert-info mt-4">
+                                <i class="fas fa-info-circle me-2"></i>
+                                <strong>Important:</strong> Please arrive 15 minutes before your appointment time. 
+                                Bring your ID and insurance information if applicable.
+                            </div>
+                            <div class="d-flex justify-content-between mt-4">
+                                <button class="btn btn-outline-secondary" onclick="previousStep()">
+                                    <i class="fas fa-arrow-left me-2"></i>Previous
+                                </button>
+                                <button class="btn btn-success" type="button" onclick="confirmAppointment()" id="confirmBtn">
+                                    <i class="fas fa-check me-2"></i>Confirm Appointment
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        console.log('Booking script loaded');
+        let currentStep = 1;
+        let selectedDoctor = null;
+        let selectedDate = null;
+        let selectedTime = null;
+        let appointmentData = {};
+        let selectedDoctorId = null;
+
+        document.getElementById('specialtySelect').addEventListener('change', filterDoctors);
+        document.getElementById('hospitalSelect').addEventListener('change', filterDoctors);
+
+        function filterDoctors() {
+            var specialty = document.getElementById('specialtySelect').value;
+            var hospital = document.getElementById('hospitalSelect').value;
+            document.querySelectorAll('.doctor-card').forEach(function(card) {
+                var match = true;
+                if (specialty && card.getAttribute('data-specialty') !== specialty) match = false;
+                if (hospital && card.getAttribute('data-hospital') !== hospital) match = false;
+                if (match) {
+                    card.classList.remove('hide');
+                } else {
+                    card.classList.add('hide');
+                }
+            });
+        }
+        // Add selection logic
+        document.querySelectorAll('.doctor-card').forEach(card => {
+            card.addEventListener('click', function() {
+                document.querySelectorAll('.doctor-card').forEach(c => c.classList.remove('selected'));
+                card.classList.add('selected');
+                selectedDoctor = card;
+                selectedDoctorId = card.getAttribute('data-doctor-id') || card.querySelector('.doctor-name').textContent;
+                document.getElementById('nextBtn1').disabled = false;
+                updateDoctorPreview(card);
+            });
+        });
+
+        document.querySelectorAll('.select-doctor-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const doctorId = btn.getAttribute('data-doctor-id');
+                const card = document.querySelector(`.doctor-card[data-doctor-id='${doctorId}']`);
+                document.querySelectorAll('.doctor-card').forEach(c => c.classList.remove('selected'));
+                card.classList.add('selected');
+                selectedDoctor = card;
+                selectedDoctorId = doctorId;
+                document.getElementById('nextBtn1').disabled = false;
+                updateDoctorPreview(card);
+            });
+        });
+
+        function updateDoctorPreview(card) {
+            if (!card) return;
+            document.getElementById('doctorPreview').style.display = '';
+            document.getElementById('previewDoctorImg').src = card.getAttribute('data-pictureuri') || '/images/default-avatar.png';
+            document.getElementById('previewDoctorName').textContent = card.getAttribute('data-name') || '';
+            document.getElementById('previewDoctorSpecialist').textContent = card.getAttribute('data-specialist') || '';
+            document.getElementById('previewDoctorHospital').textContent = card.getAttribute('data-hospitalname') || '';
+        }
+
+        function nextStep() {
+            if (currentStep < 4) {
+                document.getElementById(`panel${currentStep}`).classList.remove('active');
+                document.getElementById(`step${currentStep}`).classList.remove('active');
+                currentStep++;
+                document.getElementById(`panel${currentStep}`).classList.add('active');
+                document.getElementById(`step${currentStep}`).classList.add('active');
+                if (currentStep === 4) {
+                    updateSummary();
+                }
+            }
+        }
+
+        function previousStep() {
+            if (currentStep > 1) {
+                document.getElementById(`panel${currentStep}`).classList.remove('active');
+                document.getElementById(`step${currentStep}`).classList.remove('active');
+                currentStep--;
+                document.getElementById(`panel${currentStep}`).classList.add('active');
+                document.getElementById(`step${currentStep}`).classList.add('active');
+            }
+        }
+
+        document.getElementById('selectedDateInput').addEventListener('input', function() {
+            selectedDate = this.value ? new Date(this.value) : null;
+            document.getElementById('nextBtn2').disabled = !(selectedDate && selectedTime);
+        });
+        document.getElementById('selectedTimeInput').addEventListener('input', function() {
+            selectedTime = this.value;
+            document.getElementById('nextBtn2').disabled = !(selectedDate && selectedTime);
+        });
+
+        function updateSummary() {
+            if (selectedDoctor) {
+                document.getElementById('summaryDoctor').textContent = selectedDoctor.querySelector('.doctor-name').textContent;
+                document.getElementById('summarySpecialty').textContent = selectedDoctor.querySelector('.doctor-specialty').textContent;
+            }
+            if (selectedDate) {
+                document.getElementById('summaryDate').textContent = selectedDate.toLocaleDateString();
+            }
+            if (selectedTime) {
+                document.getElementById('summaryTime').textContent = selectedTime;
+            }
+            document.getElementById('summaryDuration').textContent = document.getElementById('appointmentDuration').value + ' minutes';
+            document.getElementById('summaryType').textContent = document.getElementById('appointmentType').value;
+            document.getElementById('summaryReason').textContent = document.getElementById('appointmentReason').value || 'Not specified';
+            document.getElementById('summaryNotes').textContent = document.getElementById('additionalNotes').value || 'None';
+        }
+
+        function confirmAppointment() {
+            console.log('confirmAppointment called');
+            if (!selectedDoctorId) {
+                showNotification('Please select a doctor before booking your appointment.', 'danger');
+                return;
+            }
+            appointmentData = {
+                doctorId: selectedDoctorId,
+                description: document.getElementById('appointmentReason').value,
+                appointmentType: document.getElementById('appointmentType').value
+            };
+            fetch('/Patient/Appointments/BookAppointment', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(appointmentData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showNotification('Appointment booked successfully! You will receive a confirmation email shortly.', 'success');
+                    setTimeout(() => {
+                        window.location.href = '/Patient/Appointments';
+                    }, 2000);
+                } else {
+                    showNotification(data.message || 'Failed to book appointment.', 'danger');
+                }
+            });
+        }
+
+        function showNotification(message, type) {
+            const notification = document.createElement('div');
+            notification.className = `alert alert-${type === 'success' ? 'success' : 'danger'} alert-dismissible fade show position-fixed`;
+            notification.style.cssText = 'top: 20px; right: 20px; z-index: 9999; min-width: 300px;';
+            notification.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            document.body.appendChild(notification);
+            setTimeout(() => {
+                notification.remove();
+            }, 5000);
+        }
+    </script>
+} 
