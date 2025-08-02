@@ -19,6 +19,17 @@ A modern, user-friendly Hospital Management System built with **ASP.NET Core MVC
 - SQL Server
 - Bootstrap, jQuery
 
+## Requirements
+
+Before running this project, ensure the following are installed on your system:
+
+- Visual Studio 2019 or later with ASP.NET and web development workload  
+- .NET 6 SDK or later  
+- SQL Server (Express or full edition)  
+- Microsoft SQL Server Management Studio (SSMS) (optional but recommended)  
+- Git (for cloning the repository)  
+- Internet connection (for restoring NuGet packages) 
+
 ## Getting Started
 
 1. **Clone the repository:**
@@ -30,10 +41,3 @@ A modern, user-friendly Hospital Management System built with **ASP.NET Core MVC
 4. **Apply migrations and update the database.**
 5. **Run the application.**
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-*Enhancing hospital efficiency and patient care through modern technology.* 
